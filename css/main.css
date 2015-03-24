@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'yellowtailregular';
+    src: url('fonts/Yellowtail-Regular-webfont.eot');
+    src: url('fonts/Yellowtail-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Yellowtail-Regular-webfont.woff') format('woff'),
+    url('fonts/Yellowtail-Regular-webfont.ttf') format('truetype'),
+    url('fonts/Yellowtail-Regular-webfont.svg#yellowtailregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('fonts/PTS55F-webfont.eot');
+    src: url('fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PTS55F-webfont.woff') format('woff'),
+    url('fonts/PTS55F-webfont.ttf') format('truetype'),
+    url('fonts/PTS55F-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('fonts/PTS75F-webfont.eot');
+    src: url('fonts/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PTS75F-webfont.woff') format('woff'),
+    url('fonts/PTS75F-webfont.ttf') format('truetype'),
+    url('fonts/PTS75F-webfont.svg#pt_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: #000000;
+    font-family: pt_sansregular;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+a {
+    text-decoration: none;
+    color: #7f8c8d;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+/* header section*/
+#header {
+    padding: 15px 130px;
+    margin: 10px 0 0 0;
+}
+
+#logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#logo a {
+    float: left;
+    margin-right: 20px;
+    font-family: yellowtailregular;
+    font-size: 56px;
+    color: #2c3e50;
+}
+
+#logo p {
+    float: left;
+    font-size: 14px;
+    margin-top: 39px;
+}
+
+#main-menu {
+    float: right;
+}
+
+#main-menu ul li {
+    float: left;
+    font-size: 21px;
+    list-style: none;
+    line-height: 16px;
+    border-right: 2px solid #7f8c8d;
+    margin-top: 26px;
+}
+
+#main-menu ul li:last-child {
+    border: none;
+}
+
+#main-menu ul li a {
+    padding: 5px 15px;
+
+}
+
+#main-menu .active a {
+    font-family: pt_sansbold;
+    background: #f39c12;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 0 -2px;
+}
+/*product section*/
+#product-section{
+    background: url("../images/product_section_bg.jpg") no-repeat;
+    padding: 0 80px;
+    height: 407px;
+}
+#monitor{
+    float: left;
+    width: 45%;
+    background: url("../images/monitor_bg.png") no-repeat;
+    height: 417px;
+    margin-top: -10px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
