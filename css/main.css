@@ -33,7 +33,15 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'chunkfive';
+    src: url('fonts/Chunkfive.eot');
+    src: url('fonts/Chunkfive.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Chunkfive.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body {
     background: #000000;
     font-family: pt_sansregular;
@@ -45,7 +53,12 @@ a {
     text-decoration: none;
     color: #7f8c8d;
 }
-
+h1, h2, h3, h4, h5,h6{
+    font-family: chunkfive;
+    text-align: center;
+    color: #7f8c8d;
+    font-weight: 100;
+}
 #container {
     width: 1200px;
     margin: 0 auto;
@@ -107,12 +120,14 @@ a {
     border-radius: 4px;
     color: #ffffff;
     margin: 0 -2px;
+    white-space: nowrap;
 }
 /*product section*/
 #product-section{
     background: url("../images/product_section_bg.jpg") no-repeat;
     padding: 0 80px;
-    height: 407px;
+
+
 }
 #monitor{
     float: left;
@@ -121,8 +136,76 @@ a {
     height: 417px;
     margin-top: -10px;
 }
+#monitor p{
 
+    font-family: chunkfive;
+    font-size: 39px;
+    color: #ffffff;
+    margin: 90px 120px 73px 120px ;
 
+}
+.monitor-button-wrapper {
+
+    font-size: 14px;
+    font-family: pt_sansbold;
+    padding: 0 78px;
+}
+.monitor-button-wrapper a{
+    background: #f39c12;
+    float: left;
+    margin: 0 20px;
+    color: #ffffff;
+    padding: 5px 0;
+    width: 108px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+.product-description{
+    width: 45%;
+    float: right;
+    padding-top: 56px;
+    line-height: 25px;
+}
+
+.product-description h1{
+    font-size: 56px;
+    color: #ffffff;
+    line-height: 8px;
+}
+.product-description h4{
+    font-size: 21px;
+    color:#bdc3c7;
+    line-height: 8px;
+}
+.product-description p{
+    text-transform:uppercase;
+    color: #f39c12;
+    padding-top: 10px;
+}
+.product-description p:last-child{
+    text-transform:none;
+    color: #ffffff;
+}
+/*product-about-section*/
+#product-about-section{
+    float: left;
+    padding: 50px 160px;
+    width: 100%;
+    background: #ecf0f1;
+}
+#product-about-section h1{
+color:#f39c12;
+    font-size: 35px;
+    line-height: 5px;
+}
+#product-about-section h3{
+font-size: 21px;
+}
+.column{
+    width:22%;
+    float: left;
+}
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
