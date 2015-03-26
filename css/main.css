@@ -126,9 +126,6 @@ h1, h2, h3, h4, h5,h6{
 #product-section{
     background: url("../images/product_section_bg.jpg") no-repeat;
 
-
-
-
 }
 #monitor{
     float: left;
@@ -165,7 +162,7 @@ h1, h2, h3, h4, h5,h6{
     width: 40%;
     float: left;
     line-height: 20px;
-   margin: 60px 0 0 40px;
+    margin: 60px 0 0 40px;
 }
 .product-description h1{
     font-size: 56px;
@@ -189,13 +186,14 @@ h1, h2, h3, h4, h5,h6{
 /*product-about-section*/
 #product-about-section{
     float: left;
-    padding: 50px 0;
     width: 100%;
     background: #ecf0f1;
+
 }
-#product-about-section div{
-    margin: 0 auto;
-    padding: 0 60px;
+#product-about-section .wrapper{
+    margin: 50px 110px 0 140px;
+    padding: 0;
+
 }
 #product-about-section h1{
     color:#f39c12;
@@ -207,9 +205,19 @@ font-size: 21px;
 }
 .column{
     float: left;
+    width: 25%;
 }
-.column img{
-    width: 100%;
+
+.column div{
+   padding: 0 35px;
+}
+
+.column div img{
+   // width: 100%;
+    margin: 30px 10%;
+}
+.column p{
+    line-height: 20px;
 }
 /* ==============================*/
 .clearfix:before,
