@@ -125,35 +125,35 @@ h1, h2, h3, h4, h5,h6{
 /*product section*/
 #product-section{
     background: url("../images/product_section_bg.jpg") no-repeat;
-    padding: 0 80px;
+
+
 
 
 }
 #monitor{
     float: left;
-    width: 45%;
+    width: 40%;
     background: url("../images/monitor_bg.png") no-repeat;
-    height: 417px;
-    margin-top: -10px;
+    margin: -10px 0 0 80px;
+    padding: 90px 0 170px 0;
 }
 #monitor p{
 
     font-family: chunkfive;
     font-size: 39px;
     color: #ffffff;
-    margin: 90px 120px 73px 120px ;
+    margin: 8px 0 75px 105px ;
 
 }
 .monitor-button-wrapper {
-
     font-size: 14px;
     font-family: pt_sansbold;
-    padding: 0 78px;
+    padding: 0 60px;
 }
 .monitor-button-wrapper a{
     background: #f39c12;
     float: left;
-    margin: 0 20px;
+    margin: 0 27px;
     color: #ffffff;
     padding: 5px 0;
     width: 108px;
@@ -162,12 +162,11 @@ h1, h2, h3, h4, h5,h6{
     border-radius: 6px;
 }
 .product-description{
-    width: 45%;
-    float: right;
-    padding-top: 56px;
-    line-height: 25px;
+    width: 40%;
+    float: left;
+    line-height: 20px;
+   margin: 60px 0 0 40px;
 }
-
 .product-description h1{
     font-size: 56px;
     color: #ffffff;
@@ -190,12 +189,16 @@ h1, h2, h3, h4, h5,h6{
 /*product-about-section*/
 #product-about-section{
     float: left;
-    padding: 50px 160px;
+    padding: 50px 0;
     width: 100%;
     background: #ecf0f1;
 }
+#product-about-section div{
+    margin: 0 auto;
+    padding: 0 60px;
+}
 #product-about-section h1{
-color:#f39c12;
+    color:#f39c12;
     font-size: 35px;
     line-height: 5px;
 }
@@ -203,9 +206,12 @@ color:#f39c12;
 font-size: 21px;
 }
 .column{
-    width:22%;
     float: left;
 }
+.column img{
+    width: 100%;
+}
+/* ==============================*/
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
