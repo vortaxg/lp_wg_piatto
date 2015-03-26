@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5,h6{
     color: #7f8c8d;
     font-weight: 100;
 }
+ul li{
+    list-style: none;
+}
 #container {
     width: 1200px;
     margin: 0 auto;
@@ -99,7 +102,6 @@ h1, h2, h3, h4, h5,h6{
 #main-menu ul li {
     float: left;
     font-size: 21px;
-    list-style: none;
     line-height: 16px;
     border-right: 2px solid #7f8c8d;
     margin-top: 26px;
@@ -185,14 +187,14 @@ h1, h2, h3, h4, h5,h6{
 }
 /*product-about-section*/
 #product-about-section{
-    float: left;
+
     width: 100%;
     background: #ecf0f1;
-
+    margin-bottom: 50px;
 }
 #product-about-section .wrapper{
-    margin: 50px 110px 0 140px;
-    padding: 0;
+    margin: -2px 110px 50px 140px;
+    padding-top: 50px;
 
 }
 #product-about-section h1{
@@ -218,6 +220,56 @@ font-size: 21px;
 }
 .column p{
     line-height: 20px;
+}
+/*gallery-section*/
+
+#gallery-section{
+    margin: 0 120px 50px 120px;
+
+}
+.follow{
+    float: left;
+    width: 15%;
+}
+.follow img{
+    border: 10px #bdc3c7 solid;
+    margin-bottom: 20px;
+}
+.follow a{
+    display: block;
+    background: #f39c12;
+    color: #ffffff;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 4px;
+    width: 98px;
+    line-height: 40px;
+    font-family: pt_sansbold;
+}
+.follow p{
+    font-family: pt_sansbold;
+    font-size: 21px;
+    line-height: 5px;
+}
+.follow span{
+ line-height: 25px;
+}
+
+.gallery{
+    width: 65%;
+    float: left;
+}
+.gallery ul li{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.gallery ul{
+    padding: 0;
+    margin: 0;
+}
+.gallery ul li img{
+    border: 10px #bdc3c7 solid;
+
 }
 /* ==============================*/
 .clearfix:before,
