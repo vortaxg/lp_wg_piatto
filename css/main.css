@@ -180,6 +180,7 @@ ul li{
     text-transform:uppercase;
     color: #f39c12;
     padding-top: 10px;
+
 }
 .product-description p:last-child{
     text-transform:none;
@@ -281,4 +282,3 @@ font-size: 21px;
 .clearfix:after {
     clear: both;
 }
-
