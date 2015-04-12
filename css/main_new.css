@@ -64,16 +64,10 @@ h1, h2, h3, h4, h5,h6{
 ul li{
     list-style: none;
 }
-#container {
-
-    margin: 0 auto;
-    background: #fff;
-
-}
 
 /* header section*/
 header {
-    padding: 15px 130px;
+    padding: 20px 100px 35px 120px;
     margin: 10px 0 0 0;
     background: #fff;
 }
@@ -85,67 +79,61 @@ figure {
 }
 
 figure a {
-    float: left;
+
     margin-right: 20px;
     font-family: yellowtailregular;
     font-size: 56px;
     color: #2c3e50;
 }
 
-figure p {
-    float: left;
+figure span {
     font-size: 14px;
-    margin-top: 39px;
 }
 
 nav {
     float: right;
+    margin-top: 20px;
+}
+nav li{
+    display: inline-block;
+    margin-right:-2%;
 }
 
-nav ul li {
-    float: left;
+nav li a{
+    display: block;
     font-size: 21px;
-    line-height: 16px;
+    padding: 0 20px;
     border-right: 2px solid #7f8c8d;
-    margin-top: 26px;
 }
 
-nav ul li:last-child {
-    border: none;
-}
-
-nav ul li a {
-    padding: 5px 15px;
-
-}
-
-nav .active a {
+nav .active>a{
     font-family: pt_sansbold;
     background: #f39c12;
     border-radius: 4px;
-    color: #ffffff;
-    margin: 0 -2px;
+    padding:10px 20px;
+    color: #fff;
     white-space: nowrap;
+    border:none;
+}
+nav li:last-child a{
+    border: none;
 }
 /*product section*/
-#product-section{
-    background: url("../images/product_section_bg.jpg") no-repeat;
-
+#product{
+   background: url("../images/product_section_bg.jpg") no-repeat;
 }
 #monitor{
     float: left;
-    width: 40%;
+    width: 42%;
     background: url("../images/monitor_bg.png") no-repeat;
     margin: -10px 0 0 80px;
     padding: 90px 0 170px 0;
 }
 #monitor p{
-
     font-family: chunkfive;
     font-size: 39px;
     color: #ffffff;
     margin: 8px 0 75px 105px ;
-
 }
 .monitor-button-wrapper {
     font-size: 14px;
@@ -155,58 +143,62 @@ nav .active a {
 .monitor-button-wrapper a{
     background: #f39c12;
     float: left;
-    margin: 0 27px;
+    margin: 0 16px 0 30px;
     color: #ffffff;
-    padding: 5px 0;
+    padding: 7px 0;
     width: 108px;
     text-align: center;
     white-space: nowrap;
     border-radius: 6px;
 }
 .product-description{
-    width: 40%;
-    float: left;
-    line-height: 20px;
-    margin: 60px 0 0 40px;
+    width: 51%;
+    float: right;
+}
+.product-description .wrapper{
+    margin:75px 105px 0 0;
 }
 .product-description h1{
     font-size: 56px;
     color: #ffffff;
-    line-height: 8px;
 }
-.product-description h4{
+.product-description h2{
     font-size: 21px;
     color:#bdc3c7;
-    line-height: 8px;
+    margin-bottom: 35px;
 }
-.product-description p{
+.product-description  p{
+    width:90%;
+    line-height:20px;
     text-transform:uppercase;
     color: #f39c12;
-    padding-top: 10px;
-
+    margin-bottom:20px;
 }
 .product-description p:last-child{
-    text-transform:none;
-    color: #ffffff;
+    width:90%;
+    line-height:20px;
+    color:#fff;
+    text-transform: none;
 }
-/*product-about-section*/
-#product-about-section{
 
+/*product-about-section*/
+#product-about{
     width: 100%;
     background: #ecf0f1;
     margin-bottom: 50px;
 }
-#product-about-section .wrapper{
-    margin: -2px 110px 50px 140px;
-    padding-top: 50px;
+
+#product-about .wrapper{
+   // margin: -2px 110px 50px 140px;
+    padding-top: 60px;
 
 }
-#product-about-section h1{
+#product-about h1{
     color:#f39c12;
     font-size: 35px;
-    line-height: 5px;
+    margin-bottom: 7px;
 }
-#product-about-section h3{
+#product-about h2{
     font-size: 21px;
 }
 .column{
