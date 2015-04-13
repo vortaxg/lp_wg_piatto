@@ -185,81 +185,147 @@ nav li:last-child a{
 #product-about{
     width: 100%;
     background: #ecf0f1;
-    margin-bottom: 50px;
 }
 
-#product-about .wrapper{
-   // margin: -2px 110px 50px 140px;
-    margin: 0 135px;
-    padding-top: 60px;
-
-}
 #product-about h1{
+    padding-top: 60px;
     color:#f39c12;
     font-size: 35px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
 }
 #product-about h2{
     font-size: 21px;
+    padding-bottom: 45px;
 }
-.column{
-    float: left;
+#product-about .layout-positioner{
+    margin: 0 130px;
+}
+#product-about .layout-positioner .layout-column{
     width: 25%;
+    float:left;
+    box-sizing: border-box;
+}
+.layout-column .wrapper{
+    padding:0 40px;
+}
+.layout-column .wrapper p{
+    padding-top: 20px;
+}
+.icon{
+    background: url('../images/sprite_img.png')no-repeat;
+  display:block;
+}
+.tool{
+    width: 120px;
+    height: 120px;
+    background-position: -360px 0;
+}
+.email{
+    width: 120px;
+    height: 120px;
+    background-position: -240px 0;
+}
+.cloud{
+    width: 120px;
+    height: 120px;
+    background-position: -120px 0;
+}
+.camera{
+    width: 120px;
+    height: 120px;
+    background-position: 0 0;
 }
 
-.column div{
-    padding: 0 35px;
-}
-
-.column div img{
-// width: 100%;
-    margin: 30px 10%;
-}
-.column p{
-    line-height: 20px;
-}
 /*gallery-section*/
+#gallery{
+    background: #fff;
+}
 
-#gallery-section{
-    margin: 0 120px 50px 120px;
+#gallery .layout-positioner{
+    margin: 0 110px;
+    padding: 80px 0;
 
 }
-.follow{
-    float: left;
-    width: 15%;
+#gallery .layout-positioner .column{
+    padding: 0 20px;
+    box-sizing: border-box;
 }
-.follow img{
-    border: 10px #bdc3c7 solid;
-    margin-bottom: 20px;
+
+#gallery .follow{
+    width:15%;
+    float:left;
+    border:1px solid red;
 }
-.follow a{
-    display: block;
+#gallery .gallery{
+    width:60%;
+    float:left;
+    border:1px solid yellow;
+}
+#gallery .download{
+    float:left;
+    width:25%;
+    border:1px solid navajowhite;
+}
+#gallery .follow .avatar{
+    width:80px;
+    height:80px;
+    background:#95a5a6;
+    border:10px solid #bdc3c7;
+    margin-bottom: 15px;
+}
+#gallery .follow a{
+    display:block;
+    width:100px;
+    font-family: pt_sansbold;
+    border-radius: 4px;
     background: #f39c12;
     color: #ffffff;
     white-space: nowrap;
     text-align: center;
-    border-radius: 4px;
-    width: 98px;
     line-height: 40px;
-    font-family: pt_sansbold;
+    margin-bottom: 15px;
 }
-.follow p{
+#gallery .follow p>span{
     font-family: pt_sansbold;
     font-size: 21px;
-    line-height: 5px;
 }
-.follow span{
-    line-height: 25px;
+#gallery .follow p{
+    line-height: 20px;
 }
+#gallery .gallery li{
+    float:left;
+    padding: 0 20px 20px 0;
+}
+#gallery .gallery img{
+    border: 10px #bdc3c7 solid;
+}
+#gallery .download .cloud{
+    display:block;
+    width:220px;
+    height:220px;
+    border-radius: 100%;
+    background: #bdc3c7 url('../images/cloud_download.png')no-repeat 50% 50%;
+    margin-bottom: 25px;
+}
+#gallery .download a{
+    width:220px;
+    display: block;
+    height:55px;
+    font-size:21px;
+    font-family: chunkfive;
+    line-height: 55px;
+    background:#2c3e50;
+    color:#fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#gallery .download a:active{
+    background: red;
+}
+/*#gallery{
 
-.gallery{
-    width: 65%;
-    float: left;
-}
-.gallery ul li{
-    float: left;
-    margin: 0 10px 10px 0;
-}
+
 .gallery ul{
     padding: 0;
     margin: 0;
@@ -267,7 +333,7 @@ nav li:last-child a{
 .gallery ul li img{
     border: 10px #bdc3c7 solid;
 
-}
+}*/
 /* ==============================*/
 .clearfix:before,
 .clearfix:after {
