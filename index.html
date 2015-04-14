@@ -27,16 +27,20 @@
 </header>
 <main>
     <section id="product" class="clearfix">
-        <div id="monitor">
-            <p>Try a Demo.</p>
+       <div class="layout-positioner clearfix">
+        <div class="layout-column">
+        <div class="monitor">
 
-            <div class="monitor-button-wrapper clearfix">
+            <div class="signature clearfix">
+                <h1>Try a Demo.</h1>
                 <a href="#">View Demo</a>
                 <a href="#">Buy Now</a>
             </div>
         </div>
+        </div>
+           <div class="layout-column">
         <div class="product-description">
-            <div class="wrapper">
+
                 <h1>Our Product</h1>
 
                 <h2>(Beats Your Product)</h2>
@@ -47,8 +51,10 @@
                 <p>Nam pellentesque aliquam libero. Fusce odio enim, cursus vitae ante eget, venenatis mollis
                     eros.Donec sit amet vulputate leo. Aenean pharetra tellus eu facilisis malesuada. Cras ac cursus
                     nulla. Etiam commodo interdum lobortis. Cras fringilla arcu sed dolor ultricies ornare.</p>
-            </div>
+
         </div>
+       </div>
+       </div>
     </section>
     <section id="product-about" class="clearfix">
         <h1>About Our Product</h1>
@@ -58,7 +64,7 @@
         <div class="layout-positioner">
             <div class="layout-column">
                 <div class="wrapper">
-                    <div class="icon tool"></div>
+                    <div class="icons tool"></div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse risus augue, hendrerit eget
                         accumsan et, interdum in lacus. Nulla et convallis quam. In at nisi commodo, consequat erat sed,
@@ -68,7 +74,7 @@
             </div>
             <div class="layout-column">
                 <div class="wrapper">
-                    <div class="icon cloud"></div>
+                    <div class="icons cloud"></div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse risus augue, hendrerit
                         eget accumsan et, interdum in lacus. Nulla et convallis quam. In at nisi commodo, consequat
@@ -79,7 +85,7 @@
             </div>
             <div class="layout-column">
                 <div class="wrapper">
-                    <div class="icon camera"></div>
+                    <div class="icons camera"></div>
 
 
                     <p>
@@ -92,7 +98,7 @@
             </div>
             <div class="layout-column">
                 <div class="wrapper">
-                    <div class="icon email"></div>
+                    <div class="icons email"></div>
 
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse risus augue, hendrerit
@@ -107,7 +113,7 @@
     </section>
     <section id="gallery">
         <div class="layout-positioner clearfix">
-            <div class="column follow">
+            <div class="layout-column follow">
                 <div class="wrapper">
                     <div class="avatar"></div>
                     <a href="#">+ Follow</a>
@@ -116,7 +122,7 @@
                         Designer,<br> Musician</p>
                 </div>
             </div>
-            <div class="column gallery">
+            <div class="layout-column thumbnail">
                 <div class="clearfix">
 
                     <ul>
@@ -129,10 +135,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="column download">
+            <div class="layout-column download">
                 <div class="wrapper">
                     <div class="cloud"></div>
                     <a href="#" class="btn">Download Now</a>
+
                     <div class="clearfix">
                         <a href="#" class="social fb">b</a>
                         <a href="#" class="social tw"></a>
@@ -143,7 +150,40 @@
         </div>
     </section>
     <section id="sign-up">
+        <div class="layout-positioner clearfix">
+            <div class="layout-column icon-description">
+                <div class="wrapper clearfix">
+                    <div class="icons tool"></div>
+                    <div class="description">
+                        <p><span>The First Example</span><br>
+                        Donec sit amet vulputate leo. Aenean pharetra tellus eu facilisis malesuada. Cras ac cursus
+                        nulla. Etiam commodo interdum lobortis. Cras fringilla arcu sed dolor ultricies ornare.</p>
+                    </div>
+                </div>
+                <div class="wrapper clearfix">
+                    <div class="icons cloud"></div>
+                    <div class="description"><p><span>Another Good Example</span><br>
+                        Donec sit amet vulputate leo. Aenean pharetra tellus eu facilisis malesuada. Cras ac cursus
+                        nulla. Etiam commodo interdum lobortis. Cras fringilla arcu sed dolor ultricies ornare.</p>
+                    </div>
+                </div>
+                <div class="wrapper clearfix">
+                    <div class="icons camera"></div>
+                    <div class="description"><p><span>If You Need Another Example</span><br>
+                        Donec sit amet vulputate leo. Aenean pharetra tellus eu facilisis malesuada. Cras ac cursus
+                        nulla. Etiam commodo interdum lobortis. Cras fringilla arcu sed dolor ultricies ornare.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-column laptop">
+                <div class="laptop-bg"></div>
+                <form method="post" class="clearfix">
+                    <input type="email" name="email" id="email-field" placeholder="Your Email Address">
+                    <input type="submit" value="Sign Up">
+                </form>
 
+            </div>
+        </div>
     </section>
 </main>
 <footer>
