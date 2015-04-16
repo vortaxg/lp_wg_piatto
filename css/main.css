@@ -408,25 +408,22 @@ nav li:last-child a {
     width: 50%;
     float: left;
 }
-
-#sign-up .tool {
-    float: left;
+#sign-up .icons{
     width: 90px;
     height: 90px;
+}
+#sign-up .tool {
+    float: left;
     background-position: -712px -4px;
 }
 
 #sign-up .cloud {
     float: left;
-    width: 90px;
-    height: 90px;
     background-position: -358px -4px;
 }
 
 #sign-up .camera {
     float: left;
-    width: 90px;
-    height: 90px;
     background-position: -132px -4px;
 }
 
@@ -463,9 +460,6 @@ nav li:last-child a {
     padding-bottom: 50px;
 }
 
-#sign-up .email {
-
-}
 
 input[id='email-field'] {
     float: left;
